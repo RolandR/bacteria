@@ -1,0 +1,41 @@
+<!doctype html>
+<html allowfullscreen>
+	<head>
+		<meta charset="utf-8" /> 
+		<title>
+			New Terrain Generator
+		</title>
+		<link rel="stylesheet" type="text/css" media="all" href="./style.css" /> 
+	</head>
+	<body>
+		<div id="loading">
+			<span id="loadingText">Loading...</span>
+			<div id="loadingContainer">
+				<div id="loadingBar"></div>
+			</div>
+		</div>
+		<div id="canvasContainer">
+			<canvas _oncontextmenu="return false;" id="renderCanvas" width="512" height="512"></canvas>
+		</div>
+		<div id="debug"></div>
+
+		<script type="text/javascript" src="./vertexshader.js"></script>
+		<script type="text/javascript" src="./fragmentshader.js"></script>
+		<script type="text/javascript" src="./renderer.js"></script>
+		
+		<script type="text/javascript" src="./newTerrain.js"></script>
+	</body>		
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
